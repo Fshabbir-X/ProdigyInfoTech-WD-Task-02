@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9df24; /* Set a background color for the entire page */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox to center content vertically and horizontally */
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the content takes up the full height of the viewport */
+}
+
+.stopwatch {
+  text-align: center;
+  background-color: #fff; /* Set a background color for the stopwatch container */
+  border: 2px solid #ccc; /* Add a border around the stopwatch container */
+  border-radius: 8px; /* Add rounded corners to the border */
+  padding: 20px; /* Add some padding to the stopwatch container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+#display {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button#startStop {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button#reset, button#lap {
+  background-color: #f44336;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#laps {
+  list-style-type: none;
+  padding: 0;
+}
+header {
+  text-align: center;
+  background-color: #333; /* Set a background color for the header */
+  color: #fff; /* Set text color */
+  padding: 20px 0; /* Add padding to the header */
+}
+
+header h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 2em; /* Set font size */
+}
+
